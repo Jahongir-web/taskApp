@@ -1,0 +1,13 @@
+
+
+body {
+  background-color: rgb(11, 219, 132);
+  color: blue;
+}
+
+.home {
+  background-image: url(../img/boy2.png), url(../img/girl.png);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 400px 800px, 300px 700px;
+}

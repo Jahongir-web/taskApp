@@ -1,0 +1,30 @@
+<div class="container container-fluid pb-5 mb-5">
+  <div class="row mb-4">
+    <div class="col">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Add Task</li>
+        </ol>
+      </nav>
+      <div class="col">
+        <h3 class="text-center">Add New Task</h3>
+      </div>
+    </div>
+  </div>
+
+
+  <form action="/dashboard/add" method="POST" class="position-relative">
+    <div class="form-group mb-4">
+      <input type="text" placeholder="Title" name="title" id="title" class="form-control" required>
+    </div>
+
+    <div class="form-group mb-4">
+      <textarea name="body" id="body" cols="30" rows="12" class="form-control" placeholder="Take a task..." required></textarea>
+    </div>
+
+    <div class="form-group">  
+      <button type="submit" class="btn btn-primary">+Add Task</button>
+    </div>
+  </form>
+</div>
