@@ -11,7 +11,6 @@ const authRouter = require("./src/router/authRouter");
 const dashRouter = require("./src/router/dashRouter");
 const mainRouter = require("./src/router/mainRouter");
 
-
 const app = express()
 const PORT = process.env.PORT || 4000;
 
@@ -54,7 +53,5 @@ const sart = async() => {
     console.log(error);
   }
 }
-
-
 sart()
 
